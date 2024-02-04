@@ -1,0 +1,25 @@
+/* TableComponent.css */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* Optionally, set a specific height to center vertically */
+  }
+  
+  .styled-table {
+    width: 80%;
+    margin-left: 20px; /* Add some space between the header and the table */
+    border-collapse: collapse;
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .styled-table th {
+    background-color: #acc6d7;
+    color: white;
+  }
+  
